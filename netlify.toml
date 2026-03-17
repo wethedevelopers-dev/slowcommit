@@ -1,0 +1,179 @@
+```toml
+[build]
+  publish = "."
+
+[build.processing]
+  skip_processing = false
+
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+[build.processing.html]
+  pretty_urls = true
+
+[build.processing.images]
+  compress = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Last-Modified = "Mon, 17 Mar 2026 00:00:00 GMT"
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    Last-Modified = "Mon, 17 Mar 2026 00:00:00 GMT"
+
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=UTF-8"
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    Last-Modified = "Mon, 17 Mar 2026 00:00:00 GMT"
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=UTF-8"
+    Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.JPG"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.woff"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+  from = "/developer-daily-routine"
+  to = "/developer-daily-routine.html"
+  status = 301
+
+[[redirects]]
+  from = "/burnout-is-a-feature"
+  to = "/burnout-is-a-feature.html"
+  status = 301
+
+[[redirects]]
+  from = "/post-sql-vs-orm"
+  to = "/post-sql-vs-orm.html"
+  status = 301
+
+[[redirects]]
+  from = "/post-naming-things"
+  to = "/post-naming-things.html"
+  status = 301
+
+[[redirects]]
+  from = "/post-developer-who-says-yes"
+  to = "/post-developer-who-says-yes.html"
+  status = 301
+
+[[redirects]]
+  from = "/post-small-functions"
+  to = "/post-small-functions.html"
+  status = 301
+
+[[redirects]]
+  from = "/post-deep-work-myth"
+  to = "/post-deep-work-myth.html"
+  status = 301
+
+[[redirects]]
+  from = "/post-maintaining-library"
+  to = "/post-maintaining-library.html"
+  status = 301
+
+[[redirects]]
+  from = "/post-cost-of-clever"
+  to = "/post-cost-of-clever.html"
+  status = 301
+
+[[redirects]]
+  from = "/post-senior-mindset"
+  to = "/post-senior-mindset.html"
+  status = 301
+
+[[redirects]]
+  from = "/post-documentation-love"
+  to = "/post-documentation-love.html"
+  status = 301
+
+[[redirects]]
+  from = "/post-boring-software"
+  to = "/post-boring-software.html"
+  status = 301
+
+[[redirects]]
+  from = "/post-inbox-zero"
+  to = "/post-inbox-zero.html"
+  status = 301
+
+[[redirects]]
+  from = "/post-apis-guide"
+  to = "/post-apis-guide.html"
+  status = 301
+
+[[redirects]]
+  from = "/post-ten-years"
+  to = "/post-ten-years.html"
+  status = 301
+
+[[redirects]]
+  from = "/post-building-in-public"
+  to = "/post-building-in-public.html"
+  status = 301
+
+[[redirects]]
+  from = "/post-monolith"
+  to = "/post-monolith.html"
+  status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404
