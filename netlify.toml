@@ -1,4 +1,11 @@
-```toml
+# WWW Canonicalization Fix
+# Forces www → non-www (since your site uses non-www)
+[[redirects]]
+  from = "https://www.slowcommit.netlify.app/*"
+  to = "https://slowcommit.netlify.app/:splat"
+  status = 301
+  force = true
+
 [build]
   publish = "."
 
@@ -177,3 +184,4 @@
   from = "/*"
   to = "/index.html"
   status = 404
+  
