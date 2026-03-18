@@ -96,88 +96,88 @@
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[redirects]]
-  from = "/developer-daily-routine"
-  to = "/developer-daily-routine.html"
+  from = "/blogs/developer-daily-routine"
+  to = "/blogs/developer-daily-routine.html"
   status = 301
 
 [[redirects]]
-  from = "/burnout-is-a-feature"
-  to = "/burnout-is-a-feature.html"
+  from = "/blogs/burnout-is-a-feature"
+  to = "/blogs/burnout-is-a-feature.html"
   status = 301
 
 [[redirects]]
-  from = "/post-sql-vs-orm"
-  to = "/post-sql-vs-orm.html"
+  from = "/blogs/post-sql-vs-orm"
+  to = "/blogs/post-sql-vs-orm.html"
   status = 301
 
 [[redirects]]
-  from = "/post-naming-things"
-  to = "/post-naming-things.html"
+  from = "/blogs/post-naming-things"
+  to = "/blogs/post-naming-things.html"
   status = 301
 
 [[redirects]]
-  from = "/post-developer-who-says-yes"
-  to = "/post-developer-who-says-yes.html"
+  from = "/blogs/post-developer-who-says-yes"
+  to = "/blogs/post-developer-who-says-yes.html"
   status = 301
 
 [[redirects]]
-  from = "/post-small-functions"
-  to = "/post-small-functions.html"
+  from = "/blogs/post-small-functions"
+  to = "/blogs/post-small-functions.html"
   status = 301
 
 [[redirects]]
-  from = "/post-deep-work-myth"
-  to = "/post-deep-work-myth.html"
+  from = "/blogs/post-deep-work-myth"
+  to = "/blogs/post-deep-work-myth.html"
   status = 301
 
 [[redirects]]
-  from = "/post-maintaining-library"
-  to = "/post-maintaining-library.html"
+  from = "/blogs/post-maintaining-library"
+  to = "/blogs/post-maintaining-library.html"
   status = 301
 
 [[redirects]]
-  from = "/post-cost-of-clever"
-  to = "/post-cost-of-clever.html"
+  from = "/blogs/post-cost-of-clever"
+  to = "/blogs/post-cost-of-clever.html"
   status = 301
 
 [[redirects]]
-  from = "/post-senior-mindset"
-  to = "/post-senior-mindset.html"
+  from = "/blogs/post-senior-mindset"
+  to = "/blogs/post-senior-mindset.html"
   status = 301
 
 [[redirects]]
-  from = "/post-documentation-love"
-  to = "/post-documentation-love.html"
+  from = "/blogs/post-documentation-love"
+  to = "/blogs/post-documentation-love.html"
   status = 301
 
 [[redirects]]
-  from = "/post-boring-software"
-  to = "/post-boring-software.html"
+  from = "/blogs/post-boring-software"
+  to = "/blogs/post-boring-software.html"
   status = 301
 
 [[redirects]]
-  from = "/post-inbox-zero"
-  to = "/post-inbox-zero.html"
+  from = "/blogs/post-inbox-zero"
+  to = "/blogs/post-inbox-zero.html"
   status = 301
 
 [[redirects]]
-  from = "/post-apis-guide"
-  to = "/post-apis-guide.html"
+  from = "/blogs/post-apis-guide"
+  to = "/blogs/post-apis-guide.html"
   status = 301
 
 [[redirects]]
-  from = "/post-ten-years"
-  to = "/post-ten-years.html"
+  from = "/blogs/post-ten-years"
+  to = "/blogs/post-ten-years.html"
   status = 301
 
 [[redirects]]
-  from = "/post-building-in-public"
-  to = "/post-building-in-public.html"
+  from = "/blogs/post-building-in-public"
+  to = "/blogs/post-building-in-public.html"
   status = 301
 
 [[redirects]]
-  from = "/post-monolith"
-  to = "/post-monolith.html"
+  from = "/blogs/post-monolith"
+  to = "/blogs/post-monolith.html"
   status = 301
 
 [[redirects]]
