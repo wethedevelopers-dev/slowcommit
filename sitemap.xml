@@ -17,7 +17,14 @@
 
   <url>
     <loc>https://slowcommit.netlify.app/blogs/burnout-is-a-feature.html</loc>
-    <lastmod>2025-02-18</lastmod>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://slowcommit.netlify.app/blogs/dev-hobbies-better-programmer.html</loc>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
