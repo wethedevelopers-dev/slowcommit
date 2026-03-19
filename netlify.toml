@@ -106,8 +106,8 @@
   status = 301
 
 [[redirects]]
-  from = "/blogs/post-sql-vs-orm"
-  to = "/blogs/post-sql-vs-orm.html"
+  from = "/blogs/dev-hobbies-better-programmer.html"
+  to = "/blogs/dev-hobbies-better-programmer.html"
   status = 301
 
 [[redirects]]
